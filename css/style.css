@@ -1,0 +1,17 @@
+#container {
+    height:300px;
+    width:300px;
+    background-color: grey;
+}
+.square {
+  height: 48px;
+  width: 48px;
+  background-color: black;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid white;
+}
+
+.red {
+  background-color: red;
+}
