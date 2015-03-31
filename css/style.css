@@ -1,17 +1,19 @@
-#container {
-    height:300px;
-    width:300px;
+.container {
+    height: 500px;
+    width: 500px;
     background-color: grey;
-}
-.square {
-  height: 48px;
-  width: 48px;
-  background-color: black;
-  display: inline-block;
-  vertical-align: top;
-  border: 1px solid white;
+    margin: 10px auto;
 }
 
-.red {
-  background-color: red;
+.square {
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
 }
+
+.highlight {
+    background-color: red;
+}
+
