@@ -1,19 +1,22 @@
+.selectors {
+  width: 500px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
 .container {
     height: 500px;
     width: 500px;
-    background-color: grey;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 
 .square {
-    background-color: black;
+    background-color: grey;
     display: inline-block;
     vertical-align: top;
+    float: left;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
-}
-
-.highlight {
-    background-color: red;
 }
 
